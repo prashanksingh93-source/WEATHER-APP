@@ -9,5 +9,5 @@
 .app{
   min-height: 100vh;
   display: grid;
-  background-color: aqua;
+  background:linear-gradient(45deg,#224ebe,#b0208e);
 }
