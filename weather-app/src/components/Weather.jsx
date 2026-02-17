@@ -57,14 +57,14 @@ const Weather = () => {
         temperature: Math.floor(data.main.temp),
         location: data.name,
         icon: icon
-       })
-    }catch(error){
+       })}
+    catch(error){
         setWeatherData(false);
     console.error("error in fetching weather data")    }
   }
 
   useEffect(()=>{
-    search("london")
+    search("")
   },[])
 
   return (
